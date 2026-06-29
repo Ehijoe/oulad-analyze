@@ -48,16 +48,23 @@ def run_random_forest(df):
     features_df = pd.get_dummies(features_df) 
     
     for module in df['code_module'].unique():
-        # Filter rows for the current module
-        mask = df['code_module'] == module
-        X = features_df[mask]
-        y = df.loc[mask, 'target']
+        # Filter rows for training (2013J) and testing (2014J)
+        mask_train = (df['code_module'] == module) & (df['code_presentation'] == '2013J')
+        mask_test = (df['code_module'] == module) & (df['code_presentation'] == '2014J')
         
+        X_train = features_df[mask_train]
+        y_train = df.loc[mask_train, 'target']
+        
+        X_test = features_df[mask_test]
+        
+        if len(X_train) == 0 or len(X_test) == 0:
+            continue
+            
         rf = RandomForestClassifier(n_estimators=100) # [cite: 224]
-        rf.fit(X, y)
-        probs = rf.predict_proba(X)[:, 1]
+        rf.fit(X_train, y_train)
+        probs = rf.predict_proba(X_test)[:, 1]
         
-        for idx, (original_idx, row) in enumerate(df[mask].iterrows()):
+        for idx, (original_idx, row) in enumerate(df[mask_test].iterrows()):
             p_pass = float(probs[idx])
             results.append({
                 "student_id": int(row['id_student']),
@@ -86,12 +93,20 @@ def run_lstm(df):
     features_df = features_df.astype(float) 
 
     for module in df['code_module'].unique():
-        mask = df['code_module'] == module
-        X = features_df[mask]
-        y = df.loc[mask, 'target']
+        mask_train = (df['code_module'] == module) & (df['code_presentation'] == '2013J')
+        mask_test = (df['code_module'] == module) & (df['code_presentation'] == '2014J')
         
-        n_steps, n_features = 1, X.shape[1]
-        X_seq = np.tile(X.values[:, np.newaxis, :], (1, n_steps, 1)).astype(np.float32)
+        X_train = features_df[mask_train]
+        y_train = df.loc[mask_train, 'target']
+        
+        X_test = features_df[mask_test]
+        
+        if len(X_train) == 0 or len(X_test) == 0:
+            continue
+            
+        n_steps, n_features = 1, X_train.shape[1]
+        X_train_seq = np.tile(X_train.values[:, np.newaxis, :], (1, n_steps, 1)).astype(np.float32)
+        X_test_seq = np.tile(X_test.values[:, np.newaxis, :], (1, n_steps, 1)).astype(np.float32)
         
         # Build and train model
         model = Sequential([
@@ -99,12 +114,12 @@ def run_lstm(df):
             Dense(1, activation='sigmoid')
         ])
         model.compile(loss='binary_crossentropy', optimizer='adam')
-        model.fit(X_seq, y, epochs=5, verbose=0)
+        model.fit(X_train_seq, y_train, epochs=5, verbose=0)
         
-        probs = model.predict(X_seq).flatten()
+        probs = model.predict(X_test_seq).flatten()
         
         # Iterate using enumerate to match indices correctly
-        for idx, (original_idx, row) in enumerate(df[mask].iterrows()):
+        for idx, (original_idx, row) in enumerate(df[mask_test].iterrows()):
             p_pass = float(probs[idx])
             results.append({
                 "student_id": int(row['id_student']),
@@ -127,6 +142,7 @@ def run_lstm(df):
 # --- 4. Execution ---
 if __name__ == "__main__":
     data = preprocess_oulad_data()
+    data = data[data['code_module'].isin(['AAA', 'BBB', 'DDD'])]
     run_random_forest(data)
     run_lstm(data)
     print("Predictions saved to rf_predictions.json and lstm_predictions.json.")

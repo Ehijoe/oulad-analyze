@@ -1,0 +1,802 @@
+[
+  {
+    "student_id": 6516,
+    "name": "Roberto",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2791,
+      "avg_assessment_score": 61.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.94,
+      "probability_fail": 0.06
+    }
+  },
+  {
+    "student_id": 24734,
+    "name": "Indigo",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 499,
+      "avg_assessment_score": 46.8,
+      "prior_fails": 1
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.37,
+      "probability_fail": 0.63
+    }
+  },
+  {
+    "student_id": 26192,
+    "name": "Jaydah",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2223,
+      "avg_assessment_score": 86.2,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.89,
+      "probability_fail": 0.11
+    }
+  },
+  {
+    "student_id": 28061,
+    "name": "Neftali",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1590,
+      "avg_assessment_score": 77.6,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.88,
+      "probability_fail": 0.12
+    }
+  },
+  {
+    "student_id": 31600,
+    "name": "Ruby",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 429,
+      "avg_assessment_score": 54.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.65,
+      "probability_fail": 0.35
+    }
+  },
+  {
+    "student_id": 46844,
+    "name": "Scotty",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 340,
+      "avg_assessment_score": 64.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.61,
+      "probability_fail": 0.39
+    }
+  },
+  {
+    "student_id": 52765,
+    "name": "Carlie",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 4938,
+      "avg_assessment_score": 63.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.76,
+      "probability_fail": 0.24
+    }
+  },
+  {
+    "student_id": 55104,
+    "name": "Kalayah",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1480,
+      "avg_assessment_score": 71.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.9,
+      "probability_fail": 0.1
+    }
+  },
+  {
+    "student_id": 58071,
+    "name": "Mehki",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 3648,
+      "avg_assessment_score": 76.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.99,
+      "probability_fail": 0.01
+    }
+  },
+  {
+    "student_id": 58316,
+    "name": "Chimamanda",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1295,
+      "avg_assessment_score": 73.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.91,
+      "probability_fail": 0.09
+    }
+  },
+  {
+    "student_id": 62487,
+    "name": "Jeancarlos",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 683,
+      "avg_assessment_score": 71.6,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.97,
+      "probability_fail": 0.03
+    }
+  },
+  {
+    "student_id": 63165,
+    "name": "Marcy",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 912,
+      "avg_assessment_score": 51.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.9,
+      "probability_fail": 0.1
+    }
+  },
+  {
+    "student_id": 65002,
+    "name": "Mostafa",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 5,
+      "avg_assessment_score": 67.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.48,
+      "probability_fail": 0.52
+    }
+  },
+  {
+    "student_id": 70011,
+    "name": "Promise",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 6396,
+      "avg_assessment_score": 80.2,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.95,
+      "probability_fail": 0.05
+    }
+  },
+  {
+    "student_id": 75255,
+    "name": "Jameson",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 950,
+      "avg_assessment_score": 81.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.95,
+      "probability_fail": 0.05
+    }
+  },
+  {
+    "student_id": 79403,
+    "name": "Konrad",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1782,
+      "avg_assessment_score": 60.7,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.12,
+      "probability_fail": 0.88
+    }
+  },
+  {
+    "student_id": 85092,
+    "name": "Zeinab",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 665,
+      "avg_assessment_score": 58.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.89,
+      "probability_fail": 0.11
+    }
+  },
+  {
+    "student_id": 85144,
+    "name": "Yasin",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 656,
+      "avg_assessment_score": 77.6,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.95,
+      "probability_fail": 0.05
+    }
+  },
+  {
+    "student_id": 85302,
+    "name": "Kenlee",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2280,
+      "avg_assessment_score": 71.2,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 1.0,
+      "probability_fail": 0.0
+    }
+  },
+  {
+    "student_id": 87431,
+    "name": "Richmond",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 802,
+      "avg_assessment_score": 50.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.18,
+      "probability_fail": 0.82
+    }
+  },
+  {
+    "student_id": 94961,
+    "name": "Bastian",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 901,
+      "avg_assessment_score": 63.6,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.76,
+      "probability_fail": 0.24
+    }
+  },
+  {
+    "student_id": 95755,
+    "name": "Julian",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 381,
+      "avg_assessment_score": 45.0,
+      "prior_fails": 1
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.14,
+      "probability_fail": 0.86
+    }
+  },
+  {
+    "student_id": 101116,
+    "name": "Ianna",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1769,
+      "avg_assessment_score": 82.6,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.91,
+      "probability_fail": 0.09
+    }
+  },
+  {
+    "student_id": 107489,
+    "name": "Kaliah",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 3722,
+      "avg_assessment_score": 82.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.98,
+      "probability_fail": 0.02
+    }
+  },
+  {
+    "student_id": 108872,
+    "name": "Amiyah",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1377,
+      "avg_assessment_score": 61.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.97,
+      "probability_fail": 0.03
+    }
+  },
+  {
+    "student_id": 109155,
+    "name": "Margaret",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 3019,
+      "avg_assessment_score": 67.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.87,
+      "probability_fail": 0.13
+    }
+  },
+  {
+    "student_id": 111512,
+    "name": "Desean",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 439,
+      "avg_assessment_score": 0.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.27,
+      "probability_fail": 0.73
+    }
+  },
+  {
+    "student_id": 117818,
+    "name": "Haya",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1695,
+      "avg_assessment_score": 57.6,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.88,
+      "probability_fail": 0.12
+    }
+  },
+  {
+    "student_id": 119902,
+    "name": "Avelyn",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2590,
+      "avg_assessment_score": 67.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.19,
+      "probability_fail": 0.81
+    }
+  },
+  {
+    "student_id": 121349,
+    "name": "Nayla",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2259,
+      "avg_assessment_score": 76.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.93,
+      "probability_fail": 0.07
+    }
+  },
+  {
+    "student_id": 124064,
+    "name": "Veronika",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2042,
+      "avg_assessment_score": 87.2,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.92,
+      "probability_fail": 0.08
+    }
+  },
+  {
+    "student_id": 125018,
+    "name": "Zaydin",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2195,
+      "avg_assessment_score": 64.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.85,
+      "probability_fail": 0.15
+    }
+  },
+  {
+    "student_id": 129955,
+    "name": "Ashlin",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 877,
+      "avg_assessment_score": 81.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.13,
+      "probability_fail": 0.87
+    }
+  },
+  {
+    "student_id": 130034,
+    "name": "Zayne",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1831,
+      "avg_assessment_score": 78.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.9,
+      "probability_fail": 0.1
+    }
+  },
+  {
+    "student_id": 130547,
+    "name": "Skylynn",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1252,
+      "avg_assessment_score": 58.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.81,
+      "probability_fail": 0.19
+    }
+  },
+  {
+    "student_id": 130636,
+    "name": "Oswaldo",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 332,
+      "avg_assessment_score": 60.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.78,
+      "probability_fail": 0.22
+    }
+  },
+  {
+    "student_id": 131390,
+    "name": "Gwendalyn",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 157,
+      "avg_assessment_score": 78.6,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.65,
+      "probability_fail": 0.35
+    }
+  },
+  {
+    "student_id": 133816,
+    "name": "Adara",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 4000,
+      "avg_assessment_score": 65.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.79,
+      "probability_fail": 0.21
+    }
+  },
+  {
+    "student_id": 133922,
+    "name": "Lili",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 574,
+      "avg_assessment_score": 78.2,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.7,
+      "probability_fail": 0.3
+    }
+  },
+  {
+    "student_id": 135335,
+    "name": "Caprice",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 16,
+      "avg_assessment_score": 0.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.03,
+      "probability_fail": 0.97
+    }
+  },
+  {
+    "student_id": 135400,
+    "name": "Ashby",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 323,
+      "avg_assessment_score": 49.8,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.33,
+      "probability_fail": 0.67
+    }
+  },
+  {
+    "student_id": 135471,
+    "name": "Brynn",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2291,
+      "avg_assessment_score": 84.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.94,
+      "probability_fail": 0.06
+    }
+  },
+  {
+    "student_id": 139033,
+    "name": "Jak",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 790,
+      "avg_assessment_score": 61.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.98,
+      "probability_fail": 0.02
+    }
+  },
+  {
+    "student_id": 141377,
+    "name": "Ceanna",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 613,
+      "avg_assessment_score": 49.6,
+      "prior_fails": 2
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.65,
+      "probability_fail": 0.35
+    }
+  },
+  {
+    "student_id": 141506,
+    "name": "Hadiya",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 415,
+      "avg_assessment_score": 75.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.66,
+      "probability_fail": 0.34
+    }
+  },
+  {
+    "student_id": 146503,
+    "name": "Hilda",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 368,
+      "avg_assessment_score": 63.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Fail",
+      "probability_pass": 0.49,
+      "probability_fail": 0.51
+    }
+  },
+  {
+    "student_id": 147756,
+    "name": "Arav",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1107,
+      "avg_assessment_score": 64.6,
+      "prior_fails": 1
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.68,
+      "probability_fail": 0.32
+    }
+  },
+  {
+    "student_id": 148993,
+    "name": "Leiah",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 1948,
+      "avg_assessment_score": 84.0,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.77,
+      "probability_fail": 0.23
+    }
+  },
+  {
+    "student_id": 149741,
+    "name": "Aziyah",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 2342,
+      "avg_assessment_score": 66.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.93,
+      "probability_fail": 0.07
+    }
+  },
+  {
+    "student_id": 149962,
+    "name": "Marcello",
+    "course_module": "AAA",
+    "presentation": "2014J",
+    "diagnostics": {
+      "vle_clicks": 141,
+      "avg_assessment_score": 68.4,
+      "prior_fails": 0
+    },
+    "prediction": {
+      "predicted_class": "Pass",
+      "probability_pass": 0.61,
+      "probability_fail": 0.39
+    }
+  }
+]
